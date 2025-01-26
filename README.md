@@ -1,7 +1,5 @@
 # Linked List Manager with File Persistence
 
-![Console Interface Demo](https://via.placeholder.com/800x400.png?text=Console+Interface+Demo)
-
 A C++ implementation of a linked list with file storage capabilities, featuring comprehensive operations and robust error handling.
 
 ## 📑 Table of Contents
