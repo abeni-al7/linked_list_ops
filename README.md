@@ -50,3 +50,74 @@ sudo apt install g++
 
 # Windows (MinGW)
 https://sourceforge.net/projects/mingw/
+```
+
+## 📖 Usage
+
+# Compilation
+```bash
+g++ linked_list.cpp -o linkedlist.exe
+```
+# Execution
+```bash
+# Linux/macOS
+./linkedlist.exe
+
+# Windows
+linkedlist.exe
+```
+# Data File
+- Auto-created at first run as linked_list_data.txt
+- Format: Space-separated integer values
+- Location: Same directory as executable
+
+## 🔍 Example Usage
+# Scenario 1: New List Creation
+```plaintext
+========================================
+▶ INITIALIZATION
+========================================
+🆕 Creating new linked list
+🔢 Enter number of initial items: 3
+🔢 Item 1: 5
+🔢 Item 2: 12
+🔢 Item 3: 8
+✅ Created list with 3 items
+
+========================================
+▶ CURRENT LINKED LIST
+========================================
+[5] → [12] → [8] → NULL
+```
+# Scenario 2: Existing List Modification
+```plaintext
+========================================
+▶ MAIN MENU
+========================================
+🔢 Enter your choice (1-11): 1
+🔢 Enter value to insert: 10
+✅ Added 10 at beginning
+
+========================================
+▶ CURRENT LINKED LIST
+========================================
+[10] → [5] → [12] → [8] → NULL
+
+========================================
+▶ MAIN MENU
+========================================
+🔢 Enter your choice (1-11): 5
+🔢 Enter position to delete: 2
+✅ Deleted node at position 2
+
+========================================
+▶ CURRENT LINKED LIST
+========================================
+[10] → [5] → [8] → NULL
+```
+## 📄 File Format
+linked_list_data.txt contents after above operations:
+```text
+10 5 8
+```
+
